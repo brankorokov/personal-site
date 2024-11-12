@@ -31,3 +31,17 @@
     background-size: calc(100% + 1px);
     background-position: center;
   }
+
+  .resume-container {
+    background-image: url("./assets/images/wavey-fingerprint.svg");
+    background-size: calc(100% + 1px);
+    background-position: center;
+  }
+
+  .resume-card:hover .resume-card-front {
+    opacity: 0;
+  }
+  
+  .resume-card:hover .resume-card-back {
+    opacity: 1;
+  }

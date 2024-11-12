@@ -18,15 +18,19 @@ export default function Navbar() {
     <div className="sticky top-0 z-50">
       <div className="bg-customOrange h-14 mx-auto flex items-center justify-between px-4">
         <div className="flex items-center">
-          <p className="text-4xl font-montserrat">
+          <a href="#home" className="text-4xl font-montserrat">
             BR
-          </p>
+          </a>
         </div>
         <div className="hidden md:flex items-center h-full">
           {Object.keys(navLinks).map((key) => (
-            <div key={key} className="cursor-pointer bg-customOrange w-auto px-2 mx-1 h-full flex items-center transition ease-in-out delay-0 hover:text-customLightOrange">
+            <a
+              key={key}
+              href={`#${key}`}
+              className="cursor-pointer bg-customOrange w-auto px-2 mx-1 h-full flex items-center transition ease-in-out delay-0 hover:text-customLightOrange font-opensans"
+            >
               <p>{navLinks[key]}</p>
-            </div>
+            </a>
           ))}
         </div>
         <div className="md:hidden flex items-center">
@@ -38,9 +42,14 @@ export default function Navbar() {
       {mobileNav && (
         <div className="cursor-pointer bg-customOrange w-full flex flex-col items-end py-4 md:hidden">
           {Object.keys(navLinks).map((key) => (
-            <div key={key} className="w-full py-2 pr-6 text-right ease-in-out delay-0 hover:text-customLightOrange transition">
+            <a
+              key={key}
+              href={`#${key}`}
+              className="w-full py-2 pr-6 text-right ease-in-out delay-0 hover:text-customLightOrange transition font-opensans"
+              onClick={handleMobileNav}
+            >
               <p>{navLinks[key]}</p>
-            </div>
+            </a>
           ))}
         </div>
       )}

@@ -1,15 +1,21 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="h-screen flex flex-col justify-center items-center bg-customPeach text-customDarkGray">
+    <footer className="flex flex-col justify-center items-center bg-customPeach text-customDarkGray py-8">
       <div className="text-center">
-        <h2 className="text-5xl font-montserrat mb-4">Contact Me</h2>
-        <p className="text-xl font-opensans mb-8">Feel free to reach out for collaborations or just a friendly chat.</p>
-        <div className="flex flex-col items-center space-y-4">
-          <a href="mailto:branko@example.com" className="text-2xl font-bold text-customBlueGray hover:text-customSlateGray">branko@example.com</a>
-          <a href="https://www.linkedin.com/in/branko" className="text-2xl font-bold text-customBlueGray hover:text-customSlateGray">LinkedIn</a>
-          <a href="https://github.com/branko" className="text-2xl font-bold text-customBlueGray hover:text-customSlateGray">GitHub</a>
+        <p className="text-center text-xl font-bold mb-4">Branko Rokov© 2024</p>
+        <div className="flex space-x-6 justify-center">
+          <a href="https://github.com/brankorokov" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-700 transition duration-300">
+            <FaGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/branko-rokov/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-700 transition duration-300">
+            <FaLinkedin />
+          </a>
+          <a href="mailto:brankorokov@outlook.com" className="text-2xl hover:text-gray-700 transition duration-300">
+            <FaEnvelope />
+          </a>
         </div>
       </div>
     </footer>
