@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="p-3">
           <img
-            src="src/assets/images/ProfilePhoto.png"
+            src="/ProfilePhoto.png"
             alt="Sample"
             className="home-img rounded-full w-60 md:w-80 max-w-80 xl:mr-32"
           />
