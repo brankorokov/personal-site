@@ -1,10 +1,10 @@
 .typewriter {
     overflow: hidden;
-    border-right: 0.1em solid black;
+    border-right: 0.1em solid theme("colors.customDarkGray");
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.1em;
-    animation: typewriter .8s steps(17, end), blink-caret 0.75s step-end infinite;
+    animation: typewriter .8s steps(17, end), blink-caret 1s step-end infinite;
   }
   
   @keyframes typewriter {
