@@ -61,7 +61,7 @@ export default function Resume() {
   ];
 
   return (
-    <section id="resume" className="resume-container bg-gray-100 text-gray-900 p-4 pt-20 pb-20 md:pt-32 md:pb-32">
+    <section id="resume" className="resume-container bg-gray-100 text-gray-900 p-2 pt-20 pb-20 md:pt-32 md:pb-32 md:p-11 lg:px-40 2xl:px-80">
       <div className="flex flex-row flex-wrap md:flex-row md:flex-wrap justify-center items-center">
         {technologies.map((tech, index) => (
           <ResumeCard key={index} logo={tech.logo} name={tech.name} details={tech.details} />
