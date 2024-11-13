@@ -13,7 +13,7 @@ export default function About() {
           />
         </div>
         <div className="home-description max-w-2xl mx-4">
-          <div className="flex flex-col items-center md:items-end px-4">
+          <div className="flex flex-col items-center md:items-start px-4">
             <h2 className="text-3xl md:text-5xl my-3 font-montserrat text-customDarkGray">About Me<span className="text-customBlueGray">.</span></h2>
             <hr className="border-t-2 border-customBlueGray w-52 my-4" />
           </div>

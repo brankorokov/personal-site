@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col justify-center items-center bg-customPeach text-customDarkGray py-8">
       <div className="text-center">
-        <p className="text-center text-xl font-bold mb-4">Branko Rokov© 2024</p>
+        <p className="text-center text-xl font-bold mb-4 font-montserrat">Branko Rokov© 2024</p>
         <div className="flex space-x-6 justify-center">
           <a href="https://github.com/brankorokov" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-customSlateGray transition duration-300">
             <FaGithub />
