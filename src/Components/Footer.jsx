@@ -7,13 +7,13 @@ export default function Footer() {
       <div className="text-center">
         <p className="text-center text-xl font-bold mb-4">Branko Rokov© 2024</p>
         <div className="flex space-x-6 justify-center">
-          <a href="https://github.com/brankorokov" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-700 transition duration-300">
+          <a href="https://github.com/brankorokov" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-customSlateGray transition duration-300">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/branko-rokov/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-700 transition duration-300">
+          <a href="https://www.linkedin.com/in/branko-rokov/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-customSlateGray transition duration-300">
             <FaLinkedin />
           </a>
-          <a href="mailto:brankorokov@outlook.com" className="text-2xl hover:text-gray-700 transition duration-300">
+          <a href="mailto:brankorokov@outlook.com" className="text-2xl hover:text-customSlateGray transition duration-300">
             <FaEnvelope />
           </a>
         </div>

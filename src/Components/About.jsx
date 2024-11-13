@@ -20,10 +20,10 @@ export default function About() {
           <div className="px-1 md:px-5 font-opensans leading-relaxed md:text-xl">
             <p className="mb-4">
               My name is Branko. I'm a .NET Developer who has spent my career learning how to effectively design, create, and maintain full stack applications
-              using .NET Core and .NET Framework. I also have experience with Blazor, ASP.NET, and Bootstrap.
+              using .NET Core and .NET Framework. I also have experience with HTML/CSS/JS, JQuery, Blazor, ASP.NET, and Bootstrap.
             </p>
             <p className="mb-4 md:mb-12">
-              Along with all things .NET, I have experience with REST APIs, Azure, PL/SQL, Git, and Oracle. I'm always looking to learn new technologies and expand my knowledge.
+              Along with all things .NET, I am familiar with Oracle, REST APIs, Azure, PL/SQL, and Git. I'm always looking to learn new technologies and expand my knowledge.
             </p>
             <InView triggerOnce>
               {({ inView, ref }) => (
