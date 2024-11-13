@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className="sticky top-0 z-50">
-      <div className="bg-customOrange h-14 mx-auto flex items-center justify-between px-4">
+      <div className="bg-customOrange h-14 mx-auto flex items-center justify-between px-4 lg:px-80">
         <div className="flex items-center">
           <a href="#home" className="text-4xl font-montserrat">
             BR
