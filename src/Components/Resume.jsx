@@ -69,7 +69,7 @@ export default function Resume() {
       </div>
       <div className="flex justify-center mt-8">
         <a
-          href="/Branko_Rokov_Resume_Oct2024.pdf" // Ensure this path is correct
+          href="/Branko_Rokov_Resume_Oct2024.pdf"
           download="Branko_Rokov_Resume_Oct2024.pdf"
           className="bg-customOrange hover:bg-customSlateGray text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
         >
