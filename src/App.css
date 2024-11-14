@@ -4,7 +4,7 @@
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.1em;
-    animation: typewriter .8s steps(17, end), blink-caret 1s step-end infinite;
+    animation: typewriter 1s steps(17, end), blink-caret 1s step-end infinite;
   }
   
   @keyframes typewriter {
@@ -44,4 +44,63 @@
   
   .resume-card:hover .resume-card-back {
     opacity: 1;
+  }
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .last-name {
+    animation: slideDown 1s ease-in-out;
+  }
+
+  .sub-title {
+    animation: slideRight 1s ease-in-out;
+    animation-delay: .3s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .rotate-in{
+    animation: rotate-in 1s ease-in-out, pulse 2.3s ease-in-out infinite;
+    animation-delay: .3s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes rotate-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      scale: 1;
+    }
+    50%{
+      scale: 1.15;
+    }
+    100% {
+      scale: 1;
+    }
   }
