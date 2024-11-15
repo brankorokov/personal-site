@@ -48,7 +48,7 @@
 
   @keyframes slideDown {
     0% {
-      transform: translateY(-100%);
+      transform: translateY(-60%);
       opacity: 0;
     }
     100% {
@@ -58,18 +58,18 @@
   }
 
   .last-name {
-    animation: slideDown 1s ease-in-out;
+    animation: slideDown .7s ease-in-out;
   }
 
   .sub-title {
-    animation: slideRight 1s ease-in-out;
+    animation: slideRight .8s ease-in-out;
     animation-delay: .3s;
     animation-fill-mode: both;
   }
 
   @keyframes slideRight {
     0% {
-      transform: translateX(-100%);
+      transform: translateX(-20%);
       opacity: 0;
     }
     100% {
@@ -78,13 +78,13 @@
     }
   }
 
-  .rotate-in{
-    animation: rotate-in 1s ease-in-out, pulse 2.3s ease-in-out infinite;
+  .fade-in-and-pulse{
+    animation: fade-in 1s ease-in-out, pulse 2.3s ease-in-out infinite;
     animation-delay: .3s;
     animation-fill-mode: both;
   }
 
-  @keyframes rotate-in {
+  @keyframes fade-in {
     0% {
       opacity: 0;
     }

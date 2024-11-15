@@ -11,7 +11,7 @@ export default function Home() {
                         <p className="lastName last-name text-8xl md:text-9xl font-montserrat">Rokov</p>
                         <p className="text-xl md:text-2xl font-opensans mt-6 sub-title">Full Stack Developer</p>
                         <FaArrowCircleDown onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
-                            className="rotate-in text-6xl mt-12 text-customOrange cursor-pointer pulse" />
+                            className="fade-in-and-pulse text-6xl mt-12 text-customOrange cursor-pointer" />
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function ResumeCard({ logo, name, details }) {
       </div>
       <div className="resume-card-back absolute inset-0 flex flex-col justify-center items-center bg-gray-800 text-white p-2 rounded-lg shadow-lg opacity-0 transition-opacity duration-500 ease-in-out">
         <div className="flex flex-col justify-between items-center">
-          <p className="text-xs md:hidden font-montserrat">{name}</p>
+          <p className="text-xs md:hidden font-montserrat text-center">{name}</p>
           <p className="text-sm md:text-lg font-opensans">{details}</p>
         </div>
       </div>
