@@ -19,7 +19,7 @@ export default function About() {
           </div>
           <div className="px-1 md:px-5 font-opensans leading-relaxed md:text-xl">
             <p className="mb-4">
-              My name is Branko. I'm a .NET Developer who has spent my career learning how to effectively design, create, and maintain full stack applications
+              My name is Branko Rokov. I'm a .NET Developer who has spent my career learning how to effectively design, create, and maintain full stack applications
               using .NET Core and .NET Framework. I also have experience with HTML/CSS/JS, JQuery, Blazor, ASP.NET, and Bootstrap.
             </p>
             <p className="mb-4 md:mb-12">
