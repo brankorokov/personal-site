@@ -25,15 +25,6 @@ export default function About() {
             <p className="mb-4 md:mb-12">
               Along with all things .NET, I am familiar with Oracle, REST APIs, Azure, PL/SQL, and Git. I'm always looking to learn new technologies and expand my knowledge.
             </p>
-            <InView triggerOnce>
-              {({ inView, ref }) => (
-                <div ref={ref} className="inline-block">
-                  <p className={`font-doto font-bold text-2xl text-customDarkGray ${inView ? 'typewriter' : ''}`}>
-                    I love to code...
-                  </p>
-                </div>
-              )}
-            </InView>
           </div>
         </div>
       </div>
