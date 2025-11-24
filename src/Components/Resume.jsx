@@ -6,47 +6,47 @@ export default function Resume() {
     {
       logo: '/NET core.png',
       name: '.NET Core',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/NET.png',
       name: '.NET',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/Oracle.png',
       name: 'Oracle',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/PLSQL.png',
       name: 'PL/SQL',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/Bootstrap.png',
       name: 'Bootstrap',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/Git.png',
       name: 'Git',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/HTML-CSS-JS-Logo.png',
       name: 'HTML/CSS/JS',
-      details: '3+ Years'
+      details: '4+ Years'
     },
     {
       logo: '/Azure.png',
       name: 'Azure',
-      details: '2+ Years'
+      details: '3+ Years'
     },
     {
       logo: '/Blazor.png',
       name: 'Blazor',
-      details: '<1 Year'
+      details: '2 Years'
     },
     {
       logo: '/Tailwind CSS.png',
